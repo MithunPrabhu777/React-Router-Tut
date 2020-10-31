@@ -1,0 +1,43 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  min-height: 12vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: rgb(48, 50, 52);
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.shop {
+  min-height: 88vh;
+  background: linear-gradient(135deg, rgb(235, 116, 116), rgb(238, 78, 105));
+}
+
+.about {
+  min-height: 88vh;
+  background: linear-gradient(135deg, rgb(225, 225, 114), rgb(133, 230, 133));
+}
+
+.content {
+  width: 400px;
+  height: 500px;
+  background-color: antiquewhite;
+  box-shadow: 4px 4px 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+}
